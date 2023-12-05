@@ -23,15 +23,10 @@
 
     <button class="drawer-button" onclick="openNav()"><i class="fa fa-bars"></i></button>
     
+    <div class="container">
     <img class="header" src="header.jpg">
     <center><h3 class="subjudul"> WebShopMC Project </h3></center>
-    
-    <center>
-        <form metode="post" action="#">
-        <input class="search-input" type="text" placeholder="Masukkan Nama Item">
-        <button class="search-icon" type="submit"><i class="fa fa-search"></i></button>
-        </form>
-    </center>
+    </div>
     <div id="popupmodal" class="modal">
         <div class="modal-content">
             <div class="modal-header">
@@ -47,6 +42,11 @@
         </div>
     </div>
     <center>
+      <div class="mainbox">
+        <form metode="post" action="#">
+        <input class="search-input" type="text" placeholder="Masukkan Nama Item">
+        <button class="search-icon" type="submit"><i class="fa fa-search"></i></button>
+        </form>
       <div class="itemlist">
         <div class="item-block">
             <div class="bkg">
@@ -184,6 +184,7 @@
             </div>
         </div>
       </div>
+    </div>
     </center>
     <script>
         // Get the modalanimation
@@ -233,4 +234,4 @@ function closeNav() {
   navOpened = false;
 }
     </script>
-</body>
+    </body>
