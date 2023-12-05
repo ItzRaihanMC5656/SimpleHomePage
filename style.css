@@ -7,12 +7,21 @@ body {
   top: 20px;
   width: 100%;
   border-radius: 7px;
+  justify-content: center;
 }
 
 .subjudul {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
     position: relative;
-    bottom: 80px;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 /* DRAWER STYLING */
@@ -83,14 +92,18 @@ body {
 
 /* SEARCH STYLING*/
 
+.mainbox {
+    position: relative;
+    top: 50px;
+}
+
 .search-input {
     background-color: white;
     border: 2px solid black;
     position: relative;
-    top: 0px;
     float: left;
     border-radius: 5px;
-    height: 30px;
+    height: 4.5%;
     width: 90%;
     outline: none;
 }
@@ -100,8 +113,6 @@ body {
 }
 
 .search-icon {
-    position: relative;
-    bottom: 0.2px;
     background-color: #7CA9FE;
     width: 30px;
     height: 30px;
